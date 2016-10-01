@@ -1,0 +1,115 @@
+From: <Saved by Blink>
+Subject: gametime-player
+Date: Sun, 1 Oct 2016 02:53:42 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--jeitOlhfsDyHGZD3ePmQWSfYf5He3XikkKtHrCIyWn----"
+
+------MultipartBoundary--jeitOlhfsDyHGZD3ePmQWSfYf5He3XikkKtHrCIyWn----
+Content-Type: text/html
+Content-ID: <frame-176-d1918dae-dcd2-445c-afd1-49f64f15afb6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://matthewbauer.us/gametime-player/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><style>body {transition: opacity ease-in 0.2s; }=
+=20
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: r=
+elative; }=20
+</style>
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ user-scalable=3Dno, minimum-scale=3D1, maximum-scale=3D1">
+<meta name=3D"apple-mobile-web-app-capable" content=3D"yes">
+
+<link rel=3D"stylesheet" href=3D"https://matthewbauer.us/gametime-player/in=
+dex.css">
+<title>gametime-player</title>
+
+
+<style type=3D"text/css">.cf-hidden { display: none; } .cf-invisible { visi=
+bility: hidden; }</style></head>
+<body>
+<div class=3D"draghint screen" id=3D"draghint">
+<input type=3D"file" id=3D"chooser" class=3D"chooser">
+<div class=3D"dragtext">
+<h1>drag a game here to play</h1>
+</div>
+</div>
+<div id=3D"loading" class=3D"message screen hidden"><h1>loading ...</h1></d=
+iv>
+<div id=3D"error" class=3D"message hidden screen">
+<h1>error!</h1>
+<p>quit and reopen to try again</p>
+</div>
+<div id=3D"overlay" class=3D"overlay"></div>
+<div class=3D"menu hidden screen" id=3D"menu">
+<input type=3D"file" id=3D"savechooser" class=3D"chooser">
+<div class=3D"options">
+<h1>Your game is paused.</h1>
+<button id=3D"resume" class=3D"resume">resume</button>
+<button id=3D"reset" class=3D"reset">reset</button>
+<button id=3D"save" class=3D"save">save game</button>
+<button id=3D"load" class=3D"load">load save</button>
+<button id=3D"mute" class=3D"mute">mute</button>
+</div>
+<div>
+<h1>Controls:</h1>
+<div>A button =3D A key</div>
+<div>B button =3D B key</div>
+<div>X button =3D X key</div>
+<div>Y button =3D Y key</div>
+<div>L button =3D L key</div>
+<div>R button =3D R key</div>
+<div>D-pad =3D arrow keys</div>
+</div>
+<div>
+<h1>Core Info:</h1>
+<pre id=3D"core-name"></pre>
+<pre id=3D"system-info"></pre>
+<pre id=3D"av-info"></pre>
+</div>
+</div>
+
+
+
+
+
+
+
+</body></html>
+------MultipartBoundary--jeitOlhfsDyHGZD3ePmQWSfYf5He3XikkKtHrCIyWn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://matthewbauer.us/gametime-player/index.css
+
+@charset "utf-8";
+
+html, body, canvas { margin: 0px; padding: 0px; width: 100%; height: 100%; =
+-webkit-user-select: none; overflow: hidden; }
+
+.draghint { display: table; box-sizing: border-box; border-width: 10px; bor=
+der-style: dashed; background-color: white; border-color: rgb(204, 204, 204=
+); }
+
+.screen { width: 100%; height: 100%; }
+
+.dragtext { display: table-cell; vertical-align: middle; text-align: center=
+; color: rgb(153, 153, 153); }
+
+.menu { overflow: scroll; height: 100%; width: 256pt; margin: 0px auto; }
+
+.hidden { display: none; }
+
+.hover { border-color: rgb(51, 51, 51); }
+
+.chooser { position: fixed; top: -1000px; }
+
+.message { text-align: center; }
+
+.message h1, .message p { position: relative; top: 50%; transform: translat=
+eY(-50%); }
+
+.overlay { opacity: 0.5; }
+------MultipartBoundary--jeitOlhfsDyHGZD3ePmQWSfYf5He3XikkKtHrCIyWn------
